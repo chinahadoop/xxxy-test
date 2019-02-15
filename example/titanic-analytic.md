@@ -66,15 +66,16 @@ Upload finished, start extracting to data module
 $ cd ../code
 
 # 初始化项目
-$ russell init --name Kaggle_Titanic
-# 或使用russell init --id <项目概览ID>初始化
+$ russell init --id <项目概览ID>
+# 或使用russell init --name <项目名>初始化
 ```
 
 ### 启动项目
 本项目需要使用seaborn库进行数据可视化，我们将通过编写一个russell_requirements.txt文件来配置我们的依赖。然后通过 russell run 命令以 Jupyter 模式启动我们的项目。
 ```bash
 # 创建russell_requirements.txt，配置seaborn库依赖
-$ echo "seaborn" >> russell_requirements.txt
+$ echo seaborn >> russell_requirements.txt
+
 
 # 以jupyter模式启动，可能需要等待一小会，返回相应浏览器可访问的notebook链接
 $ russell run --mode jupyter --data <data_id>:data
