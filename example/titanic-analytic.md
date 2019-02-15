@@ -10,7 +10,7 @@
 ---
 
 ## 准备：
-* [注册账号](https://lianxi.xiaoxiangxueyuan.com/#register)
+* [在任务网站注册账号](https://lianxi.xiaoxiangxueyuan.com/#register)：https://lianxi.xiaoxiangxueyuan.com/#register
 * 在本地安装客户端：pip install xxxy-test
 * Clone 项目文件：
 ```bash
