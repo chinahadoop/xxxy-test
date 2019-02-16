@@ -79,6 +79,9 @@ $ echo seaborn >> russell_requirements.txt
 
 # 以jupyter模式启动，可能需要等待一小会，返回相应浏览器可访问的notebook链接
 $ russell run --mode jupyter --data <data_id>:data
+
+# 如果希望以gpu环境执行，加上--gpu参数
+$ russell run --mode jupyter --data <data_id>:data --gpu
 ```
 
 成功启动Jupyter：
