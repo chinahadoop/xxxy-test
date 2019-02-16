@@ -55,7 +55,7 @@ cd tensorflow-examples/3_NeuralNetworks
 ![示意图](/asserts/img/first_task_4.png)
 
 
-### 第三步：通过 russell-cli 操作
+### 第三步：通过客户端命令行操作
 
 
 
