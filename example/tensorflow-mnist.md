@@ -63,8 +63,8 @@ cd tensorflow-examples/3_NeuralNetworks
 #绑定项目（也可以用 init --id <project_id>）
 russell init --name tf-mnist
 
-#运行启动指令
-russell run "python mnist_cnn.py"
+#运行启动指令（GPU模式）
+russell run "python mnist_cnn.py" --gpu
 
 ```
 
